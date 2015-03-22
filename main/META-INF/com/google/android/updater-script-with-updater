@@ -13,8 +13,7 @@ ui_print(" ");
 ui_print(" ");
 ui_print(" ");
 
-package_extract_file("system/xbin/busybox", "/tmp/busybox");
-run_program("/tmp/busybox", "mount", "/system");
+run_program("/sbin/busybox", "mount", "/system");
 
 ################################### Checking current ROM ###################################
 
@@ -49,7 +48,7 @@ else
 	format("ext4", "EMMC", "/dev/block/mmcblk0p5", "0", "/system");
 ############################################################################################
 
-	run_program("/tmp/busybox", "mount", "/system");
+	run_program("/sbin/busybox", "mount", "/system");
 	ui_print("It is highly recommended to make WIPE DATA.");
 	ui_print(" ");
 	sleep (3);
@@ -269,17 +268,23 @@ set_metadata("/system/xbin/showmap", "uid", 0, "gid", 2000, "mode", 0755, "capab
 set_metadata("/system/xbin/su", "uid", 0, "gid", 0, "mode", 06755, "capabilities", 0x0, "selabel", "u:object_r:su_exec:s0");
 set_metadata("/system/xbin/tcpdump", "uid", 0, "gid", 0, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:tcpdump_exec:s0");
 
+ui_print("Flashing kernel...");
+ui_print(" ");
+package_extract_file("boot.img", "/tmp/boot.img");
+write_raw_image("/tmp/boot.img", "bootimg");
+delete("/tmp/boot.img");
+
 unmount("/system");
 
 ui_print("Wiping cache...");
 ui_print(" ");
-run_program("/tmp/busybox", "mount", "/cache");
+run_program("/sbin/busybox", "mount", "/cache");
 delete_recursive("/cache");
 unmount("/cache");
 
 ui_print("Wiping dalvik cache...");
 ui_print(" ");
-run_program("/tmp/busybox", "mount", "/data");
+run_program("/sbin/busybox", "mount", "/data");
 delete_recursive("/data/dalvik-cache");
 unmount("/data");
 
