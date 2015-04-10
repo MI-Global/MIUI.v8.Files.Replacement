@@ -5649,7 +5649,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 ads.easyad-us.com
 127.0.0.1 ads.easytrader.bg
 127.0.0.1 ads.eatinparis.com
-127.0.0.1 ads.ebay.com
 127.0.0.1 ads.ebihoreanul.ro
 127.0.0.1 ads.eccentrix.com
 127.0.0.1 ads.ecircles.com
@@ -12290,7 +12289,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 banners.easydns.com
 127.0.0.1 banners.easydns.nl
 127.0.0.1 banners.easysolutions.be
-127.0.0.1 banners.ebay.com
 127.0.0.1 banners.emol.com
 127.0.0.1 banners.empoweredcomms.com.au
 127.0.0.1 banners.ero-advertising.com
@@ -19973,12 +19971,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 eb.adbureau.net
 127.0.0.1 ebao.duba.net
 127.0.0.1 ebaumsworld.us.intellitxt.com
-127.0.0.1 ebay.ivwbox.de
-127.0.0.1 ebay.northernhost.com
-127.0.0.1 ebay4u.justclick.ru
-127.0.0.1 ebayadvertising.com
-127.0.0.1 ebayobjects.com.au
-127.0.0.1 ebayrelevancead.webmasterplan.com
 127.0.0.1 ebnvideo.com
 127.0.0.1 ebony.streamate.com
 127.0.0.1 ebonyhead.com
@@ -24741,7 +24733,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 i.cdnpark.com
 127.0.0.1 i.chartboost.com
 127.0.0.1 i.ctnsnet.com
-127.0.0.1 i.ebayimg.com
 127.0.0.1 i.euniverse.com
 127.0.0.1 i.exclusivegiftcards.com
 127.0.0.1 i.flowgo.com
@@ -25103,7 +25094,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 ikyadeh.cn
 127.0.0.1 ikyigy.cn
 127.0.0.1 ilamba.com
-127.0.0.1 ilapi.ebay.com
 127.0.0.1 ilbanner.com
 127.0.0.1 ilead.itrack.it
 127.0.0.1 ilife.com
@@ -27010,7 +27000,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 l.betrad.com
 127.0.0.1 l.coincident.tv
 127.0.0.1 l.collective-media.net
-127.0.0.1 l.deals.ebay.com
 127.0.0.1 l.deindeal.ch
 127.0.0.1 l.gamespot.com
 127.0.0.1 l.javsharing.com
@@ -27090,7 +27079,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 lank.ru
 127.0.0.1 laola.ivwbox.de
 127.0.0.1 lapescuit.2cnt.net
-127.0.0.1 lapi.ebay.com
 127.0.0.1 lapoo.net
 127.0.0.1 lapsek.info
 127.0.0.1 laptoplogic.us.intellitxt.com
@@ -35131,7 +35119,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 router01.ixn.local.vmsn.de
 127.0.0.1 router02.ixn.local.vmsn.de
 127.0.0.1 router03.ixn.local.vmsn.de
-127.0.0.1 rover.ebay.com
 127.0.0.1 rovio.appads.com
 127.0.0.1 rovio1.appads.com
 127.0.0.1 rovio2.appads.com
@@ -38417,7 +38404,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 stats.dnparking.com
 127.0.0.1 stats.dominoplaza.com
 127.0.0.1 stats.drugstore.com
-127.0.0.1 stats.ebay.com
 127.0.0.1 stats.economist.com
 127.0.0.1 stats.empowher.com
 127.0.0.1 stats.engineseeker.com
@@ -45909,9 +45895,6 @@ ff02::2 ip6-allrouters
 127.0.0.1 www.easyspywarescanner.com
 127.0.0.1 www.easywebsearch.nl
 127.0.0.1 www.ebaneri.com
-127.0.0.1 www.ebannertraffic.com
-127.0.0.1 www.ebates.com
-127.0.0.1 www.ebaycoupon.us
 127.0.0.1 www.ebonybymail.com
 127.0.0.1 www.ebtmarketing.com
 127.0.0.1 www.econda-monitor.de
